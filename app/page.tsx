@@ -223,6 +223,8 @@ export default function ZentraLanding() {
 
   // Auto-play functionality
   useEffect(() => {
+    return // Disabled auto-play functionality
+
     if (!isAutoPlaying) return
 
     const autoPlayInterval = setInterval(() => {
@@ -237,6 +239,8 @@ export default function ZentraLanding() {
 
   // Start first demo on mount
   useEffect(() => {
+    return // Disabled automatic demo start
+
     const timer = setTimeout(() => {
       setIsTyping(true)
     }, 1000)
