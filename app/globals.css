@@ -119,6 +119,12 @@
   * {
     @apply border-border outline-ring/50;
   }
+
+  /* Added smooth scrolling behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -554,6 +560,11 @@
 
 /* Enhanced reduced motion support */
 @media (prefers-reduced-motion: reduce) {
+  /* Disable smooth scrolling for users who prefer reduced motion */
+  html {
+    scroll-behavior: auto;
+  }
+
   .animate-float,
   .animate-float-random,
   .animate-pulse-slow,

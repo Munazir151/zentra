@@ -1349,27 +1349,6 @@ export default function ZentraLanding() {
                 </div>
               ))}
             </div>
-
-            <div className="mt-16 text-center">
-              <p className="text-gray-400 mb-8">Trusted by professionals at leading companies</p>
-              <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
-                {[
-                  { name: "Google", width: "120" },
-                  { name: "Microsoft", width: "140" },
-                  { name: "Amazon", width: "100" },
-                  { name: "Meta", width: "80" },
-                  { name: "Apple", width: "90" },
-                  { name: "Netflix", width: "110" },
-                ].map((company, index) => (
-                  <img
-                    key={index}
-                    src={`/placeholder-graphic.png?height=40&width=${company.width}&query=${company.name} company logo in white`}
-                    alt={`${company.name} logo`}
-                    className="h-8 object-contain filter brightness-0 invert opacity-50 hover:opacity-80 transition-opacity duration-300"
-                  />
-                ))}
-              </div>
-            </div>
           </div>
         </section>
 
