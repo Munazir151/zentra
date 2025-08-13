@@ -352,8 +352,8 @@ export default function ZentraLanding() {
             <div className="flex items-center">
               <div className="flex-shrink-0 group">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-purple-600 to-blue-500 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <Search className="w-5 h-5 text-white" />
+                  <div className="w-10 h-10 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 overflow-hidden">
+                    <img src="/zentra-logo.jpg" alt="Zentra Logo" className="w-full h-full object-cover rounded-xl" />
                   </div>
                   <h1 className="text-2xl font-bold font-heading gradient-text-animated group-hover:scale-105 transition-transform duration-300">
                     Zentra
